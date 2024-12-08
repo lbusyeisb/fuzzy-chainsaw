@@ -26,6 +26,6 @@ jobs:
           export DISPLAY=:0
           /usr/bin/Xvfb :0 -screen 0 1024x768x24 &
           sleep 5
-          xvfb-run python run.py
+          xvfb-run python multi.py
       - name: done
         run: exit
